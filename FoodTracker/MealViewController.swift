@@ -36,6 +36,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             photoImageView.image = meal.photo
             ratingControl.rating = meal.rating
         }
+      
         
         // Enable the Save button only if the text field has a valid Meal name.
         updateSaveButtonState()
